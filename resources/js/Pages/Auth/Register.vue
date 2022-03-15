@@ -103,6 +103,7 @@
             </Link>
 
             <jet-button
+              :href="route('attach')"
               class="ml-4 bg-azul"
               :class="{ 'opacity-25': form.processing }"
               :disabled="form.processing"

@@ -1,18 +1,11 @@
 <template>
     <app-layout title="Dashboard">
-        <template #header>
-            <h2 class="text-xl font-semibold leading-tight text-gray-800">
-                En espera
-            </h2>
-        </template>
-
         <div class="py-12">
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div class="overflow-hidden bg-white shadow-xl sm:rounded-lg">
-                    <body class="flex items-center justify-center py-12 border-4 rounded-lg border-azul">
-                        <div class="p-10 rounded-lg">
-                            <h1 class="text-xl font-bold text-center">Bienvenido</h1> <br>
-                            <h2 class="">El administrador aprobará pronto su solicitud de registro</h2>
+                    <body class="flex items-center justify-center">
+                        <div class="p-10 bg-white rounded-lg ">
+                            <h1 class="text-xl font-bold ">Bienvenido, te encuentras en la vista de Student!!!</h1>
                         </div>
                     </body>
                 </div>

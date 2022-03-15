@@ -47,11 +47,16 @@ module.exports = {
 >>>>>>> origin/feature/admin
             },
             colors: {
+<<<<<<< HEAD
                 azul: '#5f90b9',
+=======
+                azul: '#5F90BA',
+>>>>>>> origin/develop
                 amarillo: '#F1C552',
                 noNegro: '#4A5251',
                 rojo: '#F66957',
             },
+<<<<<<< HEAD
             fontSize: {
                 'sm': '18px',
                 'base': '20px',
@@ -59,6 +64,23 @@ module.exports = {
                 
             }
         
+=======
+            spacing: {
+                '1': '8px',
+                '2': '12px',
+                '3': '16px',
+                '4': '24px',
+                '5': '32px',
+                '6': '48px',
+              },
+            fontSize: {
+                'xs': '16px',
+                'sm': '18px',
+                'base': '20px',
+                'lg': '24px',
+                'xl': '30px',
+            },
+>>>>>>> origin/develop
         },
         plugins: [
             require('@tailwindcss/typography'),
